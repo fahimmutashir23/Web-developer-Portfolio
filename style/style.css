@@ -73,16 +73,10 @@
     width: 400px;
 }
 header{
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header-1.png');
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-size: 500px;
-}
-header{
-    background-image: url('../images/developer.png');
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 70px;
+    background-size: cover;
 }
 
 .about-containar{
