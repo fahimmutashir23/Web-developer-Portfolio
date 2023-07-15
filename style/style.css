@@ -41,6 +41,10 @@
     display: flex;
     align-items: center;
 }
+.nav-option-min{
+    display: flex;
+}
+
 .nav-option li{
     margin-left: 20px;
 }
@@ -49,7 +53,6 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px 30px 0px 200px;
-
 }
 .bannar-content h2{
     font-size: 25px;
@@ -218,5 +221,97 @@ input, textarea{
     border: none;
     width: 100%;
     margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .section-containar{
+        margin: 100px 20px 0px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .footer-content p{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .footer-content{
+        width: 100%;
+    }
+
+    .r-part{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .resume{
+        margin: 100px 20px;
+    }
+    .resume-content{
+        background-color: antiquewhite;
+        padding: 10px;
+    }
+    .resume h1{
+        margin-bottom: 50px;
+        
+    }
+    .box-grp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .what-i-do{
+        margin: 50px 20px;
+    }
+    .about-containar{
+        margin: 0px 20px;
+        padding: 50px 20px;
+    }
+    .about-containar h1{
+        margin-bottom: 30px;
+    }
+    .about-propartis{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px ;
+        padding: 20px 0px;
+    }
+    .nav-option{
+        display: flex;
+        justify-content: space-between;
+        /* gap: 100px; */
+    }
+    .nav-option-min{
+        display: flex;
+    }
+    .nav-option li{
+        margin-left: 5px;
+    }
+
+    .bannar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50px;
+        padding: 50px 20px 10px 20px;
+    }
+    .bannar-content p{
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .bannar-img img{
+        width: 100%;
+    }
+    header{
+        background-image: none;
+    }
 }
 
